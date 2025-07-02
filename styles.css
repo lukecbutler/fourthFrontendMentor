@@ -127,16 +127,20 @@ body{
     width: 94%;
 }
 
+.nutrition-div h2{
+    color: hsl(14, 45%, 36%);
+}
+
 .nutrition-div h4{
     margin-left: 22px;
 }
 
 .nutrition-table{
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10px;
+    text-align: center;
 }
+
 
 .nutrition-table .value{
     font-weight: 700;
