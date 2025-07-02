@@ -141,3 +141,10 @@ body{
 .nutrition-table .value{
     font-weight: 700;
 }
+
+@media screen and (max-width:500px) {
+
+    .bug{
+        display: none;
+    }
+}
