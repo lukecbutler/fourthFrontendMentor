@@ -1,0 +1,123 @@
+/* 
+To move an element down while keeping other elements the same:
+position: relative; top: 20px;
+
+To move an element down while moving all other elements:
+margin-top: 20px;
+*/
+
+/* Global Scope section */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'serif';
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Body Section */
+
+.card-body{
+
+    background-color: hsl(30, 18%, 87%);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+
+    border-radius: 15px;
+
+    margin-top: 15px;
+
+}
+
+.card-body *{
+    width: 90%;
+    margin-left: 1em;
+}
+
+.card-body img{
+    margin-left: 0;
+    align-self: center;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+/* Header & Description Section */
+
+.header{
+    margin-top: 30px;
+}
+
+.description{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Preperation Information: */
+
+.prep-info-div{
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    width: 90%;
+    align-self: center;
+    margin-left: 0;
+
+}
+
+.prep-info-div h2{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+
+/* Ingredients Section */
+
+.ingredients-div{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    width: 94%;
+
+}
+
+.ingredients-div h2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+/* Instructions Section */
+.instructions-div{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    width: 94%;
+
+}
+
+.instructions-div h2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+/* this is how you color ONLY the numbers in an ordered list */
+.instructions-div ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+
+
