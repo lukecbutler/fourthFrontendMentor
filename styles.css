@@ -144,10 +144,43 @@ body{
 .nutrition-table .value{
     font-weight: 700;
 }
-/* 
+
 @media screen and (max-width:500px) {
 
+    body{
+        background-color: white;
+    }
+
+    .card-body{
+        margin-top: 0px;
+    }
+
+    .card-body img{
+        border-radius: 0px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .header{
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+    
+    .prep-info-div{
+        font-size: 20px;
+    }
+
+    .ingredients-div, .instructions-div, .nutrition-div{
+        font-size: 20px;
+    }
+
+    .nutrition-div h4{
+        margin-left: 30px;
+    }
 
 
-
-} */
+}
