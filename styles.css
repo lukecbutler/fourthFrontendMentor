@@ -119,5 +119,25 @@ body{
     color: hsl(14, 45%, 36%);
 }
 
+/* Nutrition Information Section */
+.nutrition-div{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    width: 94%;
+}
 
+.nutrition-div h4{
+    margin-left: 22px;
+}
 
+.nutrition-table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.nutrition-table .value{
+    font-weight: 700;
+}
